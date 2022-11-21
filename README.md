@@ -14,8 +14,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/livinglifemeaning/RockPaperScissors/tree/master 
+- Live Site URL: https://livinglifemeaning.github.io/RockPaperScissors/ 
 
 
 ### Built with
@@ -26,8 +26,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+
 
 ### Notes
-- Estimated Time: 7hrs | Actual Time: 
+- Estimated Time: 7hrs | Actual Time: 3hrs 45m
