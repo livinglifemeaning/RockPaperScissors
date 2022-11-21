@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RockPaperScissors/static/css/main.1cb72647.css",
+    "main.css": "/RockPaperScissors/static/css/main.44e9005a.css",
     "main.js": "/RockPaperScissors/static/js/main.732a22c7.js",
     "static/media/lose.wav": "/RockPaperScissors/static/media/lose.cab1c2b66980956b01e5.wav",
     "static/media/win.wav": "/RockPaperScissors/static/media/win.650939ee1d653e6f3454.wav",
@@ -13,11 +13,11 @@
     "static/media/icon-rock.svg": "/RockPaperScissors/static/media/icon-rock.476e90a9646a87bb3645d2f09f4f7fba.svg",
     "static/media/icon-close.svg": "/RockPaperScissors/static/media/icon-close.bde602ecd1a4e55e0c27137ed651e027.svg",
     "static/media/bg-triangle.svg": "/RockPaperScissors/static/media/bg-triangle.77c6ca418d3751d8f71789234314a8b9.svg",
-    "main.1cb72647.css.map": "/RockPaperScissors/static/css/main.1cb72647.css.map",
+    "main.44e9005a.css.map": "/RockPaperScissors/static/css/main.44e9005a.css.map",
     "main.732a22c7.js.map": "/RockPaperScissors/static/js/main.732a22c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cb72647.css",
+    "static/css/main.44e9005a.css",
     "static/js/main.732a22c7.js"
   ]
 }
