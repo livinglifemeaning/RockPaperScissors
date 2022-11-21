@@ -1,0 +1,23 @@
+@import "./reset.css";
+@import "./variables.css";
+html {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body {
+  font-family: var(--f-primary);
+  background: radial-gradient(
+    var(--c-gradient-bg-light),
+    var(--c-gradient-bg-dark)
+  );
+  padding: 2rem 1rem;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+@media (min-width: 45em) {
+  body{
+    padding-inline: 3rem; 
+  }
+}

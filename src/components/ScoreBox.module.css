@@ -1,0 +1,33 @@
+.header{
+    display: flex; 
+    gap: 1rem; 
+    justify-content: space-between;
+    border: solid 3px hsla(0, 0%, 100%, .4); 
+    padding: 1rem 2rem; 
+    border-radius: 10px; 
+    max-width: 50rem; 
+    margin: 0 auto; 
+}
+
+.scoreBox{
+    background-color: #fff; 
+    border-radius: 5px; 
+    padding: 1rem 2rem; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    line-height: 1em; 
+    gap: 1rem; 
+}
+
+.scoreText{
+    letter-spacing: .1em;
+    color: var(--c-text-blue);
+}
+
+.scoreNum{
+    font-size: 3rem; 
+    font-weight: 700;
+    color: var(--c-text-dark) 
+}
+

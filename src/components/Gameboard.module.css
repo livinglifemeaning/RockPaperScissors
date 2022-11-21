@@ -1,0 +1,112 @@
+.activeBoard {
+  position: relative;
+  width: fit-content;
+  height: 30vh;
+  margin: 7rem auto;
+}
+.triangle {
+  height: 100%;
+}
+
+.activeBoard > div:first-of-type {
+  
+
+  position: absolute;
+  bottom: -3rem;
+  left: 50%;
+  translate: -50%;
+}
+
+.activeBoard > div:nth-of-type(2) {
+    position: absolute;
+  top: -3rem;
+  left: -3rem;
+ 
+}
+.activeBoard > div:nth-of-type(3) {
+    position: absolute;
+    top: -3rem;
+    right: -3rem;
+}
+
+.resultsBoard {
+  height: 30vh;
+  margin: 5rem auto 9rem;
+}
+
+.choices {
+  color: #fff;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+.choices p{
+    margin-top: 1rem; 
+}
+
+.result{
+    margin-top: 1rem; 
+    font-size: 3rem; 
+    font-weight: 700; 
+    color: #fff; 
+    text-align: center; 
+    animation: fadeIn 1.5s 1; 
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+.btn{
+    background-color: #fff;
+    border: 0; 
+    color: var(--c-gradient-bg-dark); 
+    text-transform: uppercase;
+    letter-spacing: .1em; 
+    padding: .5rem 3rem; 
+    border-radius: 5px; 
+    display: block; 
+    margin: 0 auto; 
+    cursor: pointer; 
+}
+
+.btn:hover{
+    color: var(--c-gradient-red-dark); 
+}
+.btn:active{
+    scale: .98; 
+}
+@media (min-width: 45em) {
+  .activeBoard {
+    height: 40vh;
+  }
+
+  .resultsBoard{
+    margin: 7rem auto 11.5rem;
+    display: grid; 
+  }
+.result{
+    margin: 0;
+    translate: 0 -200%;  
+}
+  .btn{
+    translate: 0 -300%; 
+  }
+
+  .user, .house{
+    display: flex; 
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .user p, .house p{
+    margin-bottom: 2rem; 
+    font-size: 1.2rem; 
+  }
+}
