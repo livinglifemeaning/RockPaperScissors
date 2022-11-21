@@ -85,10 +85,11 @@
 }
 @media (min-width: 45em) {
   .activeBoard {
-    height: 40vh;
+    height: 50vh;
   }
 
   .resultsBoard{
+   
     margin: 7rem auto 11.5rem;
     display: grid; 
   }

@@ -13,7 +13,7 @@ body {
   );
   padding: 2rem 1rem;
   text-transform: uppercase;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 @media (min-width: 45em) {

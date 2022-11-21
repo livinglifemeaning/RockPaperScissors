@@ -123,7 +123,7 @@ const Gameboard = () => {
       setScore((prevState) => prevState + 1);
       sessionStorage.setItem("score", score + 1);
     }
-  }, [gameStatus, userSelection, houseSelection, score, determineWinner]);
+  }, [gameStatus, userSelection, houseSelection]);
 
   const handlePlayAgain = () => {
     new Audio(Click).play();
